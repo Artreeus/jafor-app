@@ -263,21 +263,21 @@ export const PROJECTS = [
     description:
     "Create a user-friendly file encryption tool using strong cryptographic algorithms. This project highlights my understanding of encryption principles and my ability to implement secure data protection measures. The tool features a clean GUI, supports various file types, and incorporates best practices in key management, demonstrating my commitment to data privacy and security.",
     image: "/projects/project-1.webp",
-    link: "https://example.com",
+    link: "/",
   },
   {
     title: "Network Intrusion Detection System",
     description:
     "Develop and showcase a robust Network Intrusion Detection System (NIDS) using Python and machine learning algorithms. This project demonstrates my ability to analyze network traffic, detect anomalies, and identify potential security threats in real-time. The system utilizes cutting-edge AI techniques to adapt to evolving cyber threats, showcasing my skills in both cybersecurity and data science.",
     image: "/projects/project-2.jpeg",
-    link: "https://example.com",
+    link: "/",
   },
   {
     title: "Web Application Vulnerability Scanner",
     description:
     "Design and implement a comprehensive web application vulnerability scanner that identifies common security flaws such as SQL injection, cross-site scripting (XSS), and CSRF vulnerabilities. This project showcases my knowledge of web security, my ability to think like an attacker, and my skills in developing automated security testing tools. It's a practical demonstration of my commitment to securing the digital landscape.",
     image: "/projects/project-3.jpg",
-    link: "https://example.com",
+    link: "/",
   },
 ] as const;
 
