@@ -24,7 +24,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            Cyber Security Expert Portfolio
           </h1>
         </motion.div>
 
@@ -37,7 +37,7 @@ export const HeroContent = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               the best
             </span>{" "}
-            Cyber Security services
+            Cyber Security services.
           </span>
         </motion.div>
 
