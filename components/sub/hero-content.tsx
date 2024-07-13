@@ -37,7 +37,7 @@ export const HeroContent = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               the best
             </span>{" "}
-            project experience.
+            Cyber Security services
           </span>
         </motion.div>
 
@@ -45,7 +45,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
+          I&apos;m a Cyber Security Expert with experience in Website,
           Mobile, and Software development. Check out my projects and skills.
         </motion.p>
 
