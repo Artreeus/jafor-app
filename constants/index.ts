@@ -259,24 +259,24 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Secure File Encryption Tool",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
+    "Create a user-friendly file encryption tool using strong cryptographic algorithms. This project highlights my understanding of encryption principles and my ability to implement secure data protection measures. The tool features a clean GUI, supports various file types, and incorporates best practices in key management, demonstrating my commitment to data privacy and security.",
+    image: "/projects/project-1.webp",
     link: "https://example.com",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Network Intrusion Detection System",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
+    "Develop and showcase a robust Network Intrusion Detection System (NIDS) using Python and machine learning algorithms. This project demonstrates my ability to analyze network traffic, detect anomalies, and identify potential security threats in real-time. The system utilizes cutting-edge AI techniques to adapt to evolving cyber threats, showcasing my skills in both cybersecurity and data science.",
+    image: "/projects/project-2.jpeg",
     link: "https://example.com",
   },
   {
-    title: "Space Themed Website",
+    title: "Web Application Vulnerability Scanner",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
+    "Design and implement a comprehensive web application vulnerability scanner that identifies common security flaws such as SQL injection, cross-site scripting (XSS), and CSRF vulnerabilities. This project showcases my knowledge of web security, my ability to think like an attacker, and my skills in developing automated security testing tools. It's a practical demonstration of my commitment to securing the digital landscape.",
+    image: "/projects/project-3.jpg",
     link: "https://example.com",
   },
 ] as const;
