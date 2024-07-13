@@ -33,10 +33,6 @@ export const Navbar = () => {
           </div>
         </Link>
 
-        
-
-
-
         <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
             {NAV_LINKS.map((link) => (
@@ -86,7 +82,7 @@ export const Navbar = () => {
               {link.title}
             </Link>
           ))}
-          <div className="flex flex-row gap-5 mt-5">
+          <div className="flex flex-row gap-5 mt-5 justify-center">
             {SOCIALS.map(({ link, name, icon: Icon }) => (
               <Link
                 href={link}
@@ -97,15 +93,15 @@ export const Navbar = () => {
                 <Icon className="h-6 w-6 text-white" />
               </Link>
             ))}
-            <Link
-              href={LINKS.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
-            >
-              Source Code
-            </Link>
           </div>
+          <Link
+            href={LINKS.sourceCode}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="cursor-pointer hover:text-[rgb(112,66,248)] transition mt-5"
+          >
+            Source Code
+          </Link>
         </div>
       )}
     </div>
