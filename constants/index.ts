@@ -293,7 +293,7 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/Jafor121",
       },
       {
         name: "Discord",
@@ -328,17 +328,17 @@ export const FOOTER_DATA = [
       {
         name: "Become Sponsor",
         icon: null,
-        link: "https://youtube.com",
+        link: "",
       },
       {
         name: "Learning about me",
         icon: null,
-        link: "https://example.com",
+        link: "",
       },
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "",
       },
     ],
   },
