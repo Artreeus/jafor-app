@@ -288,7 +288,7 @@ export const FOOTER_DATA = [
       {
         name: "YouTube",
         icon: FaYoutube,
-        link: "https://youtube.com",
+        link: "",
       },
       {
         name: "GitHub",
@@ -298,7 +298,7 @@ export const FOOTER_DATA = [
       {
         name: "Discord",
         icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "",
       },
     ],
   },
